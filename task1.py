@@ -6,7 +6,3 @@ if number > 5:
     print('да')
 else:
     print('нет')
-
-
-
-

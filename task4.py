@@ -16,7 +16,7 @@ if operation == '/':
     else:
         print('Деление на 0!')
 if operation == '*':
-    print(a*-b)
+    print(a*b)
 if operation == 'mod':
     if b!=0:
         print(a%b)

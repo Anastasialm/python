@@ -3,8 +3,11 @@
 
 N=float(input('введите число: '))
 sum = 0
+last_sign = 0
+while N - int(N) != 0:
+    N = N*10  
 while N != 0:
     last_sign = N % 10
     N = N // 10
     sum += last_sign
-print(sum)
+print(int(sum))
